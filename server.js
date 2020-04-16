@@ -10,9 +10,9 @@ connectDB();
 //Init middleware
 app.use(express.json({ extended: false }));
 
-app.get("/", (req, res) => {
-  res.json({ msg: "welcome to contact keeper" });
-});
+// app.get("/", (req, res) => {
+//   res.json({ msg: "welcome to contact keeper" });
+// });
 
 // Define Routes
 
